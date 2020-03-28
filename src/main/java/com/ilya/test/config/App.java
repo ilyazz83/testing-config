@@ -9,7 +9,7 @@ public class App
     public static void main( String[] args )
     {
     	if(args.length == 0) {
-    		System.out.println( "Please pass full path to the config file as an argument" );
+    		System.out.println( "Please pass full path to the config file as an argument." );
     	}
     	
     	String filePath = args[0];
